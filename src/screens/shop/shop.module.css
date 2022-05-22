@@ -1,0 +1,53 @@
+.box{
+    display: flex;
+    
+}
+
+.heading{
+    background: var(--primary);
+    
+    align-items: center;
+}
+
+.title{
+    color : var(--background-white);
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.product{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menuCategory{
+    border:
+        1px solid black
+    
+}
+.sub{
+    padding: 10px;
+    border: 1px solid black;
+    height: 20px;
+    width: fit-content;
+    margin: 5px;
+
+}
+.subContainer{
+    display: flex;
+    
+    flex-direction: column;
+}
+
+.brandContainer{
+    display: flex;
+    flex-direction: column;
+    
+}
+.colorContainer{
+    display: flex;
+    flex-direction: column;
+}

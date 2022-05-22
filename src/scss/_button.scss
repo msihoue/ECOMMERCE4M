@@ -1,0 +1,17 @@
+.btn{
+    padding: 8px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    color: var(--background-white);
+    cursor: pointer;
+    background: var(--secondary);
+    &:hover{
+        padding: 6px 18px;
+        transition: all 0.3s ease-out;
+        background: var(--svg-color);
+        border-radius: 5px;
+        border: 2px solid var(--secondary);
+    }
+}

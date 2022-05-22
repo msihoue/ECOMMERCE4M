@@ -1,0 +1,83 @@
+.content {
+    border: 3px solid black;
+    margin: 20px 0;
+    height: 330px;
+    
+}
+
+.heading {
+    border: 1px solid red;
+    margin-top: -48px;
+    padding: 10px;
+    /* height: 20%; */
+}
+
+h4{
+    background-color: blueviolet;
+}
+
+.box {
+    flex: 0 0 auto;
+    width: 160px;
+    height: 280px;
+    margin: 0 5px;
+    /* border: 1px solid blue; */
+    margin-left: -2px;
+}
+
+.img {
+    position: relative;
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+
+    /* top: -5px; */
+}
+
+.img:hover .img img {
+    transform: scale(1, 1);
+}
+
+.img img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    margin: 3px;
+}
+.c_control_btn .next,
+.c_control_btn .prev {
+    background: red;
+    position: absolute;
+    top: 30%;
+    width: 40px;
+    height: 80px;
+    line-height: 20px;
+    border-radius: 10%;
+    transform: 0.5s;
+    z-index: 5;
+    opacity: 0.1;
+}
+
+.c_control_btn .prev {
+    left: 0;
+}
+.c_control_btn .next {
+    right: 0;
+}
+.c_control_btn .prev i,
+.c_control_btn .next i {
+    font-size: 20px;
+    transition: 0.5s;
+    color: #fff;
+}
+.c_control_btn .prev:hover,
+.c_control_btn .next:hover {
+    background: #e94560;
+    color: white;
+    cursor: pointer;
+}
+
+.c_control_btn .prev:hover,
+.c_control_btn .next:hover {
+    opacity: 1;
+}

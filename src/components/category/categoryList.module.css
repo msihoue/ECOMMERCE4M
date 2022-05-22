@@ -1,0 +1,20 @@
+.category{
+    background: #000000;
+    padding: 10px;
+    border-radius: 25%;
+
+}
+
+.container{
+    display: flex;
+   
+    
+    
+}
+
+.raw{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background: gold;
+}

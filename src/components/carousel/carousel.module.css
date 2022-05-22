@@ -1,0 +1,71 @@
+.c_content {
+    position: relative;
+     /* width: 1500px;
+     height: 600px; */
+    
+}
+
+ .slide_box {
+    height: 100%;
+    width: 100%;
+    
+}
+
+.slide_box img {
+    height: 100%;
+    width: 100%;
+      /* width: 1500px;
+     height: 600px;  */
+    object-fit: cover;
+}
+
+ 
+.carousel_c_control_btn  .prev {
+        background: red;
+        position: absolute;
+        top: 40%;
+        width: 40px;
+        height: 80px;
+        line-height: 20px;
+        border-radius: 10%;
+        transform: 0.5s;
+        z-index: 5;
+        opacity: 0.1;
+        right: 10px;}
+       .prev svg {
+            font-size: 20px;
+            transition: 0.5s;
+            color: #fff;
+        }
+        .prev:hover {
+            background: #e94560;
+            color: white;
+            cursor: pointer;
+            opacity: 1;
+        }
+    
+        .carousel_c_control_btn  .next {
+        background: red;
+        position: absolute;
+        top: 40%;
+        width: 40px;
+        height: 80px;
+        line-height: 20px;
+        border-radius: 10%;
+        transform: 0.5s;
+        z-index: 5;
+        opacity: 0.1;
+        left: 10px;}
+       .next svg {
+            font-size: 20px;
+            transition: 0.5s;
+            color: #fff;
+        }
+        .next:hover {
+            background: #e94560;
+            color: white;
+            cursor: pointer;
+            opacity: 1;
+        }
+    
+

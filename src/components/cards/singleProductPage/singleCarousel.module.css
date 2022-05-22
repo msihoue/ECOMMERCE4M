@@ -1,0 +1,15 @@
+.carousel_wrapper{
+    border: 1px solid red;
+    max-width: 40%;
+
+    
+}
+
+.carousel_slider{
+    border: 1px solid blue
+}
+
+img{
+    border: 1px solid black;
+    width: 100%;
+}

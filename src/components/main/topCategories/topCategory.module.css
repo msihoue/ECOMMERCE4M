@@ -1,0 +1,131 @@
+.top{
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+    .heading {
+        padding: 5px 5px;
+        background: var(--dark-blue);}
+        .left svg {
+             
+                font-size: 36px;
+            
+        }
+         
+            .right .vu_btn {
+                padding: 5px;}
+                .vu_btn svg {
+                    font-size: 25px;
+                }
+            
+        
+    
+
+.content {
+    height: 280px;
+    padding: 0 2px;
+    /* border: 1px solid red; */
+    display: flex;
+    margin-top: -18px;
+    align-items: center;
+    justify-content: center;
+}
+.flashcard_box {
+    /* flex: 0 0 auto; */
+    width: 175px;
+    height: 280px;
+    /* margin-left: -1px; */
+    /* overflow-y: hidden; */
+}
+        .flashcard_box:hover {
+            opacity: 1;
+        }
+        .flashcard_box .img {
+            position: relative;
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+            top: -10px;}
+
+            .flashcard_box    .discount {
+                position: absolute;
+                background: var(--white_background);
+                padding: 5px;
+                border-radius: 5px;
+                color: var(--red);
+                right: 20px;
+                top: 10px;
+            }
+            .flashcard_thumb {
+                width: 100%;
+                height: 200px;
+                object-fit: contain;}
+                .flashcard_thumb:hover {
+                    transform: scale(1, 1);
+                }
+            
+            .card-btn {
+                position: absolute;
+                bottom: 10px;
+                left: 50%;
+                transform: translateX(-50%);
+                padding: 5px;
+                width: 90%;
+                text-transform: capitalize;
+                border: none;
+                outline: none;
+                background: var(--primary);
+                border-radius: 5px;
+                transition: 0.5s;
+                color: var(--secondary);
+                font-weight: 600;
+                opacity: 0;}
+                .card-btn:hover {
+                    background: var(--light-black);
+                    color: var(--white_background);
+                }
+            
+        
+    
+    .flashcard_product_details {
+        width: 100%;
+        height: 80px;
+        margin-top: -55px;}
+        .flashcard_product_details h3 {
+            font-size: 12px;
+            padding: 0 5px;
+        }
+        .rate {
+            font-size: 12px;
+            color: #ffcd4e;
+            margin: 5px 5px 5px 5px;
+        }
+        .flashcard_price {
+            display: flex;
+            align-items: center;
+            /* justify-content: space-between; */}
+            .price {
+                font-size: 14px;
+                font-weight: 900;
+            }
+            .flashcard_price .actual-price {
+                margin-left: 20px;
+                text-decoration: line-through;
+                font-size: 12px;
+            }
+        
+    
+
+/* 
+// .flashcard_box:hover .card-btn {
+//     opacity: 1;
+// }
+
+// .flashcard_box .card-btn:hover {
+//     background: #222;
+//     color: #fff;
+// } */

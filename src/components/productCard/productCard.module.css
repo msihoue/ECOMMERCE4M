@@ -1,0 +1,47 @@
+.productCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 174px;
+    height: 280px;
+    /* border: 2px solid black; */
+    margin: 0px;
+}
+.img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;}
+img {
+    width: 100%;
+    height: 100%;
+}
+    
+.title {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100%;
+    
+}
+h1 {
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0 5px;
+
+}
+    
+.productPrice {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+.price{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.oldPrice{
+    font-size: 12px;
+    font-weight: 500;
+}
